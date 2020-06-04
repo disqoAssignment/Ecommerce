@@ -1,0 +1,2 @@
+
+INSERT INTO `product` VALUES (1,'new',NULL,'product description','T-shirt',10,23),(2,'used',NULL,'products from UK','Pollo',52,450);
