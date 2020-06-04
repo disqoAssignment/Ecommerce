@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  ecommerce:
+    build: ./dockerfiles/openjdk
+    ports:
+      - "8080:8086"
+    expose:
+      - 8086
+    links:
+      - mysql-db
+  mysql-db:
+    image: mysql:8.0.18
+    environment:
+      - MYSQL_USER=root
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=user_authentication
+    ports:
+      - 3307:3306
+    command: mysqld --lower_case_table_names=1 --skip-ssl --character_set_server=utf8mb4 --explicit_defaults_for_timestamp
+  web:
+    image: nginx
+    volumes:
+      - ./templates/dist/angtmp:/usr/share/nginx/html
+      - ./templates/default.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - "80:80"
+    environment:
+      - NGINX_HOST=foobar.com
+      - NGINX_PORT=80
+
