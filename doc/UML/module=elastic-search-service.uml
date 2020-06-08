@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>SpringLocalModels</ID>
+  <OriginalElement>module=elastic-search-service</OriginalElement>
+  <nodes>
+    <node x="0.0" y="32.0">module=elastic-search-service</node>
+    <node x="257.0" y="0.0">fileset=elastic-search-service/ElasticSearchApplication</node>
+    <node x="533.0" y="32.0">com.disco.ecommerce.elastic.ElasticSearchApplication</node>
+    <node x="814.5" y="0.0">com.disco.ecommerce.elastic.config.SwaggerConfig</node>
+    <node x="1039.0" y="0.0">springfox.documentation.swagger2.annotations.EnableSwagger2</node>
+    <node x="792.0" y="64.0">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+    <node x="240.0" y="64.0">fileset=elastic-search-service/ElasticSearchApplication MVC</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="module=elastic-search-service" target="fileset=elastic-search-service/ElasticSearchApplication MVC">
+      <point x="80.0" y="6.0" />
+      <point x="-106.5" y="-0.0" />
+    </edge>
+    <edge source="fileset=elastic-search-service/ElasticSearchApplication" target="com.disco.ecommerce.elastic.ElasticSearchApplication">
+      <point x="89.5" y="-0.0" />
+      <point x="453.0" y="12.0" />
+      <point x="-89.5" y="-6.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.elastic.ElasticSearchApplication" target="com.disco.ecommerce.elastic.config.SwaggerConfig">
+      <point x="89.5" y="-6.0" />
+      <point x="792.0" y="12.0" />
+      <point x="-61.0" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.elastic.config.SwaggerConfig" target="springfox.documentation.swagger2.annotations.EnableSwagger2">
+      <point x="61.0" y="-0.0" />
+      <point x="-65.0" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.elastic.ElasticSearchApplication" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+      <point x="89.5" y="6.0" />
+      <point x="-83.5" y="-0.0" />
+    </edge>
+    <edge source="fileset=elastic-search-service/ElasticSearchApplication MVC" target="com.disco.ecommerce.elastic.ElasticSearchApplication">
+      <point x="106.5" y="-0.0" />
+      <point x="-89.5" y="6.0" />
+    </edge>
+    <edge source="module=elastic-search-service" target="fileset=elastic-search-service/ElasticSearchApplication">
+      <point x="80.0" y="-6.0" />
+      <point x="240.0" y="12.0" />
+      <point x="-89.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7603027754415476" x="584.5" y="44.0" />
+  <SelectedNodes>
+    <node>module=elastic-search-service</node>
+    <node>fileset=elastic-search-service/ElasticSearchApplication MVC</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Show filesets as groups</Category>
+  </Categories>
+</Diagram>
+

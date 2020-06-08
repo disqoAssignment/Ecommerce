@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>SpringLocalModels</ID>
+  <OriginalElement>module=cart-service</OriginalElement>
+  <nodes>
+    <node x="0.0" y="64.0">module=cart-service</node>
+    <node x="211.0" y="64.0">fileset=cart-service/CartServiceApplication</node>
+    <node x="490.0" y="96.0">com.disco.ecommerce.cart.CartServiceApplication</node>
+    <node x="759.5" y="160.0">com.disco.ecommerce.cart.config.SwaggerConfig</node>
+    <node x="984.0" y="160.0">springfox.documentation.swagger2.annotations.EnableSwagger2</node>
+    <node x="747.0" y="96.0">org.springframework.cloud.netflix.eureka.EnableEurekaClient</node>
+    <node x="737.0" y="32.0">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+    <node x="179.0" y="0.0">fileset=cart-service/CartServiceApplication Bootstrap</node>
+    <node x="-286.0" y="1708.0">fileset=cart-service/CartServiceApplication MVC</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="module=cart-service" target="fileset=cart-service/CartServiceApplication">
+      <point x="49.5" y="-0.0" />
+      <point x="-83.5" y="-0.0" />
+    </edge>
+    <edge source="module=cart-service" target="fileset=cart-service/CartServiceApplication Bootstrap">
+      <point x="49.5" y="-8.0" />
+      <point x="-115.5" y="-0.0" />
+    </edge>
+    <edge source="fileset=cart-service/CartServiceApplication" target="com.disco.ecommerce.cart.CartServiceApplication">
+      <point x="83.5" y="-0.0" />
+      <point x="410.0" y="76.0" />
+      <point x="-83.5" y="-6.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.cart.CartServiceApplication" target="org.springframework.cloud.netflix.eureka.EnableEurekaClient">
+      <point x="83.5" y="-0.0" />
+      <point x="-73.5" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.cart.CartServiceApplication" target="com.disco.ecommerce.cart.config.SwaggerConfig">
+      <point x="83.5" y="8.0" />
+      <point x="737.0" y="172.0" />
+      <point x="-61.0" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.cart.CartServiceApplication" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+      <point x="83.5" y="-8.0" />
+      <point x="-83.5" y="-0.0" />
+    </edge>
+    <edge source="fileset=cart-service/CartServiceApplication MVC" target="com.disco.ecommerce.cart.CartServiceApplication">
+      <point x="100.5" y="-0.0" />
+      <point x="410.0" y="140.0" />
+      <point x="-83.5" y="6.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.cart.config.SwaggerConfig" target="springfox.documentation.swagger2.annotations.EnableSwagger2">
+      <point x="61.0" y="-0.0" />
+      <point x="-65.0" y="-0.0" />
+    </edge>
+    <edge source="module=cart-service" target="fileset=cart-service/CartServiceApplication MVC">
+      <point x="49.5" y="8.0" />
+      <point x="179.0" y="140.0" />
+      <point x="-100.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.1" x="1613.4999999999995" y="2385.0" />
+  <SelectedNodes>
+    <node>fileset=cart-service/CartServiceApplication MVC</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+

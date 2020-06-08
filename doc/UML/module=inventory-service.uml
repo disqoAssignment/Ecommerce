@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>SpringLocalModels</ID>
+  <OriginalElement>module=inventory-service</OriginalElement>
+  <nodes>
+    <node x="0.0" y="63.999999999999986">module=inventory-service</node>
+    <node x="244.5" y="128.0">fileset=inventory-service/InventoryServiceApplication</node>
+    <node x="556.0" y="95.99999999999999">com.disco.ecommerce.inventory.InventoryServiceApplication</node>
+    <node x="858.5" y="31.999999999999986">com.disco.ecommerce.inventory.config.SwaggerConfig</node>
+    <node x="1083.0" y="31.999999999999986">springfox.documentation.swagger2.annotations.EnableSwagger2</node>
+    <node x="846.0" y="95.99999999999999">org.springframework.cloud.netflix.eureka.EnableEurekaClient</node>
+    <node x="836.0" y="160.0">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+    <node x="213.0" y="0.0">fileset=inventory-service/InventoryServiceApplication Bootstrap</node>
+    <node x="227.5" y="63.99999999999999">fileset=inventory-service/InventoryServiceApplication MVC</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="module=inventory-service" target="fileset=inventory-service/InventoryServiceApplication">
+      <point x="66.5" y="8.0" />
+      <point x="213.0" y="140.0" />
+      <point x="-100.0" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.inventory.InventoryServiceApplication" target="org.springframework.cloud.netflix.eureka.EnableEurekaClient">
+      <point x="100.0" y="-0.0" />
+      <point x="-73.5" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.inventory.config.SwaggerConfig" target="springfox.documentation.swagger2.annotations.EnableSwagger2">
+      <point x="61.0" y="-0.0" />
+      <point x="-65.0" y="-0.0" />
+    </edge>
+    <edge source="fileset=inventory-service/InventoryServiceApplication MVC" target="com.disco.ecommerce.inventory.InventoryServiceApplication">
+      <point x="117.0" y="-0.0" />
+      <point x="476.0" y="76.0" />
+      <point x="-100.0" y="-6.0" />
+    </edge>
+    <edge source="fileset=inventory-service/InventoryServiceApplication" target="com.disco.ecommerce.inventory.InventoryServiceApplication">
+      <point x="100.0" y="-0.0" />
+      <point x="476.0" y="140.0" />
+      <point x="-100.0" y="6.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.inventory.InventoryServiceApplication" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+      <point x="100.0" y="8.0" />
+      <point x="-83.5" y="-0.0" />
+    </edge>
+    <edge source="module=inventory-service" target="fileset=inventory-service/InventoryServiceApplication MVC">
+      <point x="66.5" y="-0.0" />
+      <point x="-117.0" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.inventory.InventoryServiceApplication" target="com.disco.ecommerce.inventory.config.SwaggerConfig">
+      <point x="100.0" y="-8.0" />
+      <point x="836.0" y="43.999999999999986" />
+      <point x="-61.0" y="-0.0" />
+    </edge>
+    <edge source="module=inventory-service" target="fileset=inventory-service/InventoryServiceApplication Bootstrap">
+      <point x="66.5" y="-8.0" />
+      <point x="-131.5" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7331711273317113" x="606.5" y="92.0" />
+  <SelectedNodes>
+    <node>fileset=inventory-service/InventoryServiceApplication Bootstrap</node>
+  </SelectedNodes>
+  <Categories />
+</Diagram>
+

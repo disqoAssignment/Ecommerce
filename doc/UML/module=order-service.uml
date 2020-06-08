@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>SpringLocalModels</ID>
+  <OriginalElement>module=order-service</OriginalElement>
+  <nodes>
+    <node x="0.0" y="63.999999999999986">module=order-service</node>
+    <node x="220.5" y="63.99999999999999">fileset=order-service/PurchaseServiceApplication</node>
+    <node x="530.0" y="95.99999999999999">com.disco.ecommerce.purchase.PurchaseServiceApplication</node>
+    <node x="830.5" y="31.999999999999986">com.disco.ecommerce.purchase.config.SwaggerConfig</node>
+    <node x="1055.0" y="31.999999999999986">springfox.documentation.swagger2.annotations.EnableSwagger2</node>
+    <node x="818.0" y="95.99999999999999">org.springframework.cloud.netflix.eureka.EnableEurekaClient</node>
+    <node x="808.0" y="160.0">org.springframework.boot.autoconfigure.SpringBootApplication</node>
+    <node x="189.0" y="0.0">fileset=order-service/PurchaseServiceApplication Bootstrap</node>
+    <node x="203.5" y="128.0">fileset=order-service/PurchaseServiceApplication MVC</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="module=order-service" target="fileset=order-service/PurchaseServiceApplication Bootstrap">
+      <point x="54.5" y="-8.0" />
+      <point x="-130.5" y="-0.0" />
+    </edge>
+    <edge source="fileset=order-service/PurchaseServiceApplication" target="com.disco.ecommerce.purchase.PurchaseServiceApplication">
+      <point x="99.0" y="-0.0" />
+      <point x="450.0" y="76.0" />
+      <point x="-99.0" y="-6.0" />
+    </edge>
+    <edge source="fileset=order-service/PurchaseServiceApplication MVC" target="com.disco.ecommerce.purchase.PurchaseServiceApplication">
+      <point x="116.0" y="-0.0" />
+      <point x="450.0" y="140.0" />
+      <point x="-99.0" y="6.0" />
+    </edge>
+    <edge source="module=order-service" target="fileset=order-service/PurchaseServiceApplication MVC">
+      <point x="54.5" y="8.0" />
+      <point x="189.0" y="140.0" />
+      <point x="-116.0" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.purchase.PurchaseServiceApplication" target="org.springframework.boot.autoconfigure.SpringBootApplication">
+      <point x="99.0" y="8.0" />
+      <point x="-83.5" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.purchase.PurchaseServiceApplication" target="com.disco.ecommerce.purchase.config.SwaggerConfig">
+      <point x="99.0" y="-8.0" />
+      <point x="808.0" y="43.999999999999986" />
+      <point x="-61.0" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.purchase.config.SwaggerConfig" target="springfox.documentation.swagger2.annotations.EnableSwagger2">
+      <point x="61.0" y="-0.0" />
+      <point x="-65.0" y="-0.0" />
+    </edge>
+    <edge source="com.disco.ecommerce.purchase.PurchaseServiceApplication" target="org.springframework.cloud.netflix.eureka.EnableEurekaClient">
+      <point x="99.0" y="-0.0" />
+      <point x="-73.5" y="-0.0" />
+    </edge>
+    <edge source="module=order-service" target="fileset=order-service/PurchaseServiceApplication">
+      <point x="54.5" y="-0.0" />
+      <point x="-99.0" y="-0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.750207468879668" x="592.5" y="92.0" />
+  <SelectedNodes>
+    <node>fileset=order-service/PurchaseServiceApplication MVC</node>
+    <node>module=order-service</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Show filesets as groups</Category>
+  </Categories>
+</Diagram>
+
